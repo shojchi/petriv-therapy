@@ -1,0 +1,38 @@
+---
+// Import global Tailwind styles
+import '../styles/global.css';
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Tailwind Test - Petriv Therapy</title>
+	</head>
+	<body class="min-h-screen bg-gradient-to-br from-blue-50 to-green-50">
+		<!-- Container with Tailwind utility classes -->
+		<div class="flex items-center justify-center min-h-screen">
+			<div class="text-center px-6">
+				<h1 class="text-5xl font-bold text-blue-700 mb-4">
+					🎉 Tailwind CSS is Working!
+				</h1>
+				<p class="text-xl text-gray-600 mb-8">
+					This page is styled with Tailwind utility classes
+				</p>
+				<div class="space-y-4">
+					<button class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+						Primary Button
+					</button>
+					<div class="flex gap-4 justify-center">
+						<div class="w-16 h-16 bg-blue-500 rounded-full"></div>
+						<div class="w-16 h-16 bg-green-500 rounded-full"></div>
+						<div class="w-16 h-16 bg-purple-500 rounded-full"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
